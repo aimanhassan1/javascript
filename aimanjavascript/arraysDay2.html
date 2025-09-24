@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let subject = ["math", "english", "urdu"];
+        // // document.write(subject[2]);
+        // subject[2]= "drawing";
+        // document.write(subject[2]);
+
+
+        // // ________________________array book code pg# 338____________________
+        // var names= new Array("John","DAvid","Kevin");
+        // alert('list of student Names:\n'+names[0]+','+names[1]+ ' , ' + ''+names[2]);
+
+
+        // _________________________array book codepg#339___________________
+        var sum=0;
+        var marks=new Array(5);
+        for(var i =0; i<marks.length; i++){
+            marks[i] = parseInt(prompt('Enter marks:',''));
+            sum=sum+marks[i];
+         }
+        alert('average of marks:'+(sum/marks.length));
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#box{
+    height: 500px;
+    width: 300px;
+    background-size: 100% 100%;
+    background-image: url(img.jpg);
+}
+</style>
+<body>
+    <div class="box"  id ="box" onmouseenter="m()" onmouseleave="l()">
+    </div>
+    <script>
+        function m(){
+document.getElementById("box").style.backgroundImage =  'url(img.jpg)';
+        }
+        function l(){
+document.getElementById("box").style.backgroundImage =  'url(645.jpg)';
+        }
+    </script>
+</body>
+</html>
